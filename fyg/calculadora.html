@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>calculadora</title>
+</head>
+<body>
+ 
+<header><h1>Calculadora<h1></header>
+
+<section>
+   <div class="tderesult"></div>
+
+   <span class="numeros">
+     <input type="button" value="1" class="nm" onclick="insert('1')">
+     <input type="button" value="2" class="nm" onclick="insert('2')">
+     <input type="button" value="3" class="nm" onclick="insert('3')">
+     <input type="button" value="/" class="nm sin" onclick="insert('/')">
+     <input type="button" value="4" class="nm" onclick="insert('4')">
+     <input type="button" value="5" class="nm" onclick="insert('5')">
+     <input type="button" value="6" class="nm" onclick="insert('6')">
+     <input type="button" value="x" class="nm sin" onclick="insert('x')">
+     <input type="button" value="7" class="nm" onclick="insert('7')">   
+     <input type="button" value="8" class="nm" onclick="insert('8')">
+     <input type="button" value="9" class="nm" onclick="insert('9')">
+     <input type="button" value="-" class="nm sin" onclick="insert('-')">
+     <input type="button" value="C" class="nm sin" onclick="clean()">
+     <input type="button" value="0" class="nm" onclick="insert('0')">
+     <input type="button" value="+" class="nm sin" onclick="insert('+')">
+     <input type="button" value="=" class="nm sin" onclick="calcular()">
+   <span>
+
+</section>
+
+
+<script src="script.js"></script>
+
+
+</body>
+</html>

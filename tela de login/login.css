@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+ *{
+ font-family: 'Open Sans';
+
+ }
+
+ body{
+ background-color: rgb(99, 112, 125);
+ font: normal 20px Arial;
+ height: 97vh;
+ width: 90vh;
+ 
+ }
+
+ header{
+color: rgb(0, 0, 0);
+font-size: 30px;
+ }
+
+ section{
+background-color: white;
+box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.314);
+width: 400px;
+height: 500px;
+border-radius: 5px;
+margin: auto;
+align-items: center;
+padding: 40px;
+opacity: 0;
+transform: translateX(-30px);
+display: flex;
+flex-direction: column;
+
+ }
+
+section div{
+
+flex-direction: column;
+margin-bottom: 20px;
+margin-top: 20px;
+font-size: 25px;
+align-items: center;
+ }
+
+#bot {
+height: 80px;
+width: 280px;
+border-radius: 20px;
+background: linear-gradient(to bottom right, rgb(203, 11, 203),purple);
+color: rgb(255, 255, 255);
+cursor: pointer;
+border-radius: 25px;
+border: none;
+font-size: 30px;
+margin-top: 20px;
+margin-left: 30px;
+}
+
+.texto{
+font-size: 20px;
+width: 300px;
+border: none;
+border-bottom: 1px solid purple;
+}
+
+.sn{
+font-size: 20px;
+width: 300px;
+border: none;
+border-bottom: 1px solid purple;
+}
+
+.texto:focus {
+  outline: none;
+}
+
+.sn:focus{
+  outline: none;
+}
+
+.underline {
+  text-decoration: underline purple;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+@keyframes animaçao{
+
+0% {
+opacity: 0;
+transform: translateX(-30px);
+}
+
+100% {
+opacity: 1;
+transform: translateX(0px);
+}
+}
+
+#tudo.animar{
+  animation-name: animaçao;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+#bot.anim{
+margin: 20px 130px;
+width: 70px;
+height: 70px;
+border-radius: 50%;
+font-size: 0;
+background: none;
+border: 20px solid rgb(203, 11, 203);
+border-top-color: transparent;
+animation: load .6s linear infinite;
+}
+
+@keyframes load {
+
+to {
+transform: rotate(360deg);
+}
+
+}

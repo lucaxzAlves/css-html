@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+font-family: 'Open Sans';
+}
+
+body{
+height: 100vh;
+width: 100vh;
+background-color: dimgray;
+color: black;
+}
+
+main {
+background-color: rgb(255, 255, 255);
+height: 500px;
+width: 400px;
+justify-content: center;
+align-items: center;
+margin: auto;
+display: flex;
+flex-direction: column;
+font-size: 20px;
+}
+
+.principal{
+bottom: 
+}
