@@ -64,7 +64,7 @@ align-items: center;
 justify-content: center;
 display: flex;
 gap: 60px;
-background-image: url(chama-de-fogo-em-fundo-preto.jpg);
+background-image: url(assets/chama-de-fogo-em-fundo-preto.jpg);
 
 }
 
@@ -177,7 +177,7 @@ align-items: end;
 width: 800px;
 height: 780px;
 align-items: center;
-background-color: #1e1c2a;
+background-color: ;
 text-align: center;
 justify-content: center;
 font-size: 1.3em;
@@ -187,6 +187,7 @@ margin: 0px 60px;
 #about h1{
 margin-top: 50px;
 margin-bottom: 20px;
+color: #d63a25;
 }
 
 #about p{
@@ -195,3 +196,89 @@ width: 500px;
 height: 230px;
 
 }
+
+#card {
+height: 900px;
+width: 100%;
+align-items: center;
+text-align: center;
+color: #fff;
+margin-top: 200px;
+}
+
+#card h1 {
+
+font-size: 40px;
+}
+
+.space {
+background-color: #1e1c2a;
+margin: 20px auto;
+width: 1300px;
+display: flex;
+justify-content: space-between;
+}
+
+.cont {
+background-color: #1e1c2a;
+box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.363);
+width: 380px;
+height: 500px;
+border-radius: 10px;
+margin: 40px 40px;
+}
+
+#chess {
+width: 350px;
+height: 300px;
+}
+
+#lanche {
+width: 380px;
+height: 300px;
+background-color: rgb(0, 0, 0) ;
+}
+
+#combo {
+width: 350px;
+height: 300px;
+background-color: #fff;
+}
+
+.nome{
+color: #f2452e;
+}
+
+.descriçao{
+color: #f2452e;
+font-size: 1.2em;
+}
+
+.bott{
+margin-top: 20px;
+width: 280px;
+height: 60px;
+border-radius: 10px;
+font-size: 1.5em;
+color: #ffffff;
+background-color: #d63a25;
+cursor: pointer;
+}
+
+.bott:hover {
+transform: scale(1.1);
+}
+
+footer {
+margin-top: 190px;
+height: 100px;
+font-size: 30px;
+background-color: #d63a25;
+color: #1e1c2a
+}
+
+footer h2 {
+margin: 20px;
+font-size: 25px;
+}
+
