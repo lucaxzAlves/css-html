@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+ *{
+ font-family: 'Open Sans';
+ }
+
+ body {
+ height: 100vh;
+ width: 100%;
+ background-color: #1e1c2a;
+ align-items: center;
+ margin: auto;
+ color: white;
+
+ }
+
+
+header {
+background-color: #D5E4CF;
+height: 100px;
+width: 100%;
+margin: 0;
+top: 0;
+display: flex;
+border-bottom: 5px solid #0c323e;
+align-items: center; /* <<< isso aqui centraliza verticalmente */
+  justify-content: space-between; /* separa a logo dos links */
+  
+}
+
+.links {
+text-decoration: none;
+display: flex;
+gap: 20px; /* espaço entre os links */
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 35px;
+    margin: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+    transition: transform 0.2s ease-in-out;
+    display: inline-flex;
+}
+
+.links a:hover {
+transform: scale(1.1);
+color: #024054;
+}
+
+.logo {
+    margin-left: 10px;
+    height: 280px;
+    width: 300px;
+}
+
+.control {
+    background-color: #9DCC9B;
+    width: 400px;
+    border-left: 5px solid #222222;
+}
+
+.control p {
+font-size: 40px;
+margin-top: 40px;
+margin-left: 30px;
+text-align: center;
+color: black;
+}
+
+
+.svg1 {
+margin-top: 100px;
+margin-left: 30px;
+height: 200px;
+width: 250px;
+
+}
+
+.map {
+height: 710px;
+width: 1400px;
+}
+
+.mapSection {
+    display: flex;
+}
