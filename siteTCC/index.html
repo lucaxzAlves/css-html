@@ -3,12 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site TCC</title>
+    <title>Pure space</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/WhatsApp Image 2025-05-04 at 12.09.48 AM.png" type="image/png">
 </head>
 <body>
-    <section>
-      <header>
+
+
+  <section id="inicial" class="inicial">
+    
+    <div class="cardfoto">
+        <img class="fotoifsp" src="assets/capa.jpeg">
+        <img class="logoInicial fade-in logohover" src="assets/logo.png">
+    </div>
+
+    <div class="conteudoInicial">
+        <div class="fundo slide-rightF textcapa">
+        <div class="textcapa slide-right ">
+          <h1>Monitoramento Inteligente de Temperatura e Umidade</h1>
+          <p>Um sistema simples, eficiente e conectado à Internet.</p>
+        </div>
+       </div>
+      </div>
+</section>
+
+  
+
+    <section id="mapa">
+      <header id="header">
         <img class="logo" src="assets/WhatsApp Image 2025-04-28 at 8.53.09 PM (1).png" alt="">
        <div class="links">
         <a href="#inicial">Inicial</a>
@@ -17,14 +39,175 @@
         <a href="#sobre">Sobre</a>
        </div>
       </header>
+
+
+       
+
+
+
+
+
+
+
        <div class="mapSection">
-      <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d741.484680673846!2d-48.926167299059145!3d-23.079001439989774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1spt-BR!2sbr!4v1745882229887!5m2!1spt-BR!2sbr" class="map" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+      <div class="map">
+        <img src="assets/mapasempontos.png" class="map" alt="">
+
+         <!-- pontos do mapa -->
+          
+          <div class="bio" class="pinpoint">
+          <h1>Lab de bio</h1>
+         <img src="assets/pin verde.png"  alt="">
+        </div>
+
+        <div class="usinagem" class="pinpoint">
+          <h1>Usinagem</h1>
+         <img src="assets/pin verde.png"  alt="">
+        </div>
+
+        <div class="cozinha" class="pinpoint">
+          <h1>Cozinha</h1>
+         <img src="assets/pin verde.png"  alt="">
+        </div>
+         
+        <div class="gym" class="pinpoint">
+          <h1>Academia</h1>
+         <img src="assets/pin verde.png"  alt="">
+        </div>
+         
+      </div>
      
+
+
       <div class="control"><img class="svg1" src="assets/undraw_world_bdnk.svg" alt=""> 
         <p>escolha algum ponto para começar.</p>
        </div>  
+
+        <div class="infos" class="animation">
+        <img src="assets/undraw_maker-launch_fwzi.svg" alt="">
+        <h1>Academia</h1>
+        <h2>Temperatura atual: 29°C 🌡️</h2> 
+        <p>avaliação: boa</p> 
+        <h2>Umidade atual do ar: 55% 💧</h2> 
+        <p>avaliação: boa</p>
+        <button>Informações mais detalhadas</button>
+       </div>
+
+    </section>
+ 
+
+    <!-- essa section na vdd são duas -->
+    <section class="graficos info-animation" id="ifos">
+      <div class="abas">
+        <h1 class="Gymab">Academia</h1>
+        <h1 class="kichikenAb">Cozinha</h1>
+        <h1 class="Bioab">Lab de bio</h1>
+        <h1 class="usiab">Usinagem</h1>
+       </div>
+    <div class="content">
+
+     <div class="variationw">
+       <h2>Variação de temperatura durante a semana:</h2>
+       <h2>Variação de temperatura durante o mes:</h2>
+      </div>
+     
+
+     <div class="grafics">
+      <img src="assets/Texto_do_seu_parágrafo__3_-removebg-preview.png" alt="">
+      <div class="Pageilustration">
+        <h1>Temperatura atual: 29°C 🌡️</h1>
+        <img src="assets/undraw_working-out_6ksl (1).svg" class="firstimg altimgOne" alt="">
+      </div>
+      <img src="assets/Texto_do_seu_parágrafo__3_-removebg-preview.png" class="Secondimg" alt="">
+     </div>
+
+     <div class="assessment">
+      <div class="assessment-one">
+      <h3>Avaliação:</h3>
+       <span>
+          <p>baixa variancia</p>
+          <p>pouco excedente</p>
+          <p>bla bla bla</p>
+        </span>
+      </div>
+      <div class="assessment-two">
+        <h3>Avaliação:</h3>
+       <span>
+          <p>baixa variancia</p>
+          <p>pouco excedente</p>
+          <p>bla bla bla</p>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <!--aqui é a parte de umidade -->
+   
+  <div class="variationw">
+    <h2>Variação da umidade durante a semana:</h2>
+    <h2>Variação da umidade durante o mes:</h2>
+   </div>
+  
+
+  <div class="grafics">
+   <img src="assets/Texto_do_seu_parágrafo__3_-removebg-preview.png" alt="">
+   <div class="Pageilustration">
+     <h1>Umidade atual do ar: 55% 💧</h1>
+     <img src="assets/undraw_personal-trainer_bqkg (1).svg" class="altimgTwo firstimg" alt="">
+   </div>
+   <img src="assets/Texto_do_seu_parágrafo__3_-removebg-preview.png" class="Secondimg" alt="">
+  </div>
+
+  <div class="assessment">
+   <div class="assessment-one">
+   <h3>Avaliação:</h3>
+    <span>
+       <p>baixa variancia</p>
+       <p>pouco excedente</p>
+       <p>bla bla bla</p>
+     </span>
+   </div>
+   <div class="assessment-two">
+     <h3>Avaliação:</h3>
+    <span>
+       <p>baixa variancia</p>
+       <p>pouco excedente</p>
+       <p>bla bla bla</p>
+     </span>
+   </div>
+ </div>
+</div>
+
+
+
     </section>
 
+
+
+
+
+
+
+   <!--Sobre-->
+
+<div  class="background" id="sobre" >
+    <!--texto sobre-->
+    <div>
+    <h1>Sobre o projeto.</h1>
+    <p class="texto">Este Trabalho de Conclusão de Curso (TCC), desenvolvido no curso técnico de Mecatrônica, tem como objetivo criar um sistema de monitoramento de umidade e temperatura utilizando o sensor DHT11 integrado a uma placa Arduino com shield Wi-Fi. A ideia do projeto surgiu da necessidade de monitorar condições ambientais em tempo real, especialmente em locais onde o controle do clima é essencial, como estufas, residências ou ambientes escolares. O sensor DHT11 realiza a leitura das variáveis ambientais, enquanto o Arduino processa os dados e os envia via Wi-Fi para uma plataforma online, permitindo o acompanhamento remoto. Este projeto aplica conceitos fundamentais da Mecatrônica, como eletrônica, sensores, automação e programação, e demonstra como tecnologias acessíveis podem ser usadas para desenvolver soluções inteligentes no contexto da Internet das Coisas (IoT).</p>
+    </div>
+    <!--imagem relativa ao texto-->
+    <img class="svgsobre" src="assets/undraw_personal-information_gbtc.svg">
+</div>
+
+     <!-- Rodapé -->
+     <footer>
+      <p>© 2025 - PureSpace - Projeto de TCC em Mecatrônica</p>
+      <p>Desenvolvido por: Lucas A. Moreira, João P. Carvalho, Lucas J. dos Santos e Renan T. Yoshida</p>
+      <p>IFSP Campus Avaré | Contato: PureSpaceTCC@gmail.com</p>
+    </footer>
+
+<script src="index.js"></script>
 
 </body>
 </html>
